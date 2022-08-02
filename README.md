@@ -6,4 +6,3 @@ HTML snippets
 - HTML Snippets
 - Comments for placements and use
 
-      ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
