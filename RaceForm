@@ -1,0 +1,66 @@
+-HTML-
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edited Version of Marathon Registration Form</title>
+</head>
+
+<body>
+    <form action="/CoolMan!">
+        <hr>
+        <hr>
+        <h1><i> &#127937 Race Registration!&#127937</i></h1>
+        <hr>
+        <label for="firstname"></label>
+        <input type="text" name="firstname" id="firstname" placeholder="First Name" required>
+        <label for="lastname"></label>
+        <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
+        <br>
+        <hr>
+        <div>
+            <p><b><i>Select a Race:</i></b></p>
+            <p> &#8595 &#127939 &#8595 &#127939 &#8595 &#127939</p>
+            <input type="radio" name="funrun5k" id="funrun5k" value="">
+            <label for="funrun5k"> Fun Run 5k</label>
+            <br>
+            <input type="radio" name="funrun5k" id="halfmar" value="halfmar">
+            <label for="halfmar"> Half Marathon</label>
+            <br>
+            <input type="radio" name="funrun5k" id="fullmar" value="fullmar">
+            <label for="fullmar"> Full Marathon</label>
+        </div>
+        <hr>
+
+        <div>
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="&#128231 Email">
+            <label for="password"></label>
+            <input type="password" name="" id="password" placeholder="&#128274 Password">
+        </div>
+
+        <hr>
+        <div>
+            <label for="age"><b><i>Select Age Group</i></b></label>
+
+            <select name="age" id="age">
+                <option value="under18">Under 18</option>
+                <option value="18-45">18-45</option>
+                <option value="45-over">45-over</option>
+            </select>
+            &#128102 &#x1f468 &#128116
+            <hr>
+
+        </div>
+        <button><b><i>Register!</i></b></button>
+    </form>
+    <hr>
+    <hr>
+
+</body>
+
+</html>
