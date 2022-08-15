@@ -1,0 +1,74 @@
+-HTML-
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <title>HTML FOUNDATIONS</title>
+</head>
+
+<body>
+    <h1>HTML FOUNDATIONS</h1>
+    <hr>
+    <h4>-Learning Source-</h4>
+    <h4>The Web Developer Bootcamp ----- Udemy.com</h4>
+    <p>Instructor : <b>Colt Steele</b></p>
+
+    <hr>
+
+    <h3>HTML Elements</h3>
+    <hr>
+    <p>There are a lot of Elements used in HTML. You can find all of them via
+        <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">
+            Mozilla Developer for HTML Elements(opens in new tab)
+        </a>
+    </p>
+    <p> 1. < p>
+            < / p> <b><u>Paragraph Element</u></b></p>
+    <p> 2. < h1>
+            < h1 /> <b><u>Header Element(s)</u></b> h1-h6 (h1 is the highest valued/size, h6 is the lowest valued/size)
+            *only ever use <u><b>ONE</b></u> h1 element per page* </p>
+    <p> 3. < ol>
+            < / ol> <b><u>Ordered List </u></b>(Numbered)</p>
+    <p> 4. < ul>
+            < / ul> <b><u>Unordered List </u></b>(Bulleted)</p>
+    <p> 5. < a>
+            < / a> <b><u> Anchor tag </u></b> always followed by href=""</p>
+    <p> 6. < img>
+            <b><u> Image tag </u></b> always followed by src="" this Element does NOT have a closing tag
+            <a target="_blank" href="image.html">Images Demo</a></p>
+    <p> 7. Inline Elements- Elements that remain on one line when displayed, think of the img tag </p>
+    <p> 8. Block Elements- Elements that are displayed in a block format, think of the Paragraph tag </p>
+    <p> 9. Div Elements- A block level element, used to group content together and easily style that content using the
+        div
+        (class)
+    </p>
+    <p> 10. Span Elements- an Inline element, use this around an element you want to single out and style. You would use
+        this around a single word to change it's color ect... </p>
+    <hr>
+    <h3>Semantic Markup HTML</h3>
+    <hr>
+    <p>What does Semantic mean? Semantic - Relating to meaning. This is a better way to structure your code so that it's
+        easier to navigate for you the developer and for web scappers to scrape your webpage.</p>
+    <p>Think of <b>header, footer, section</b> tags... these do not need to be memorized, you can easily reference docs
+        via
+        google search.</p>
+    <h3>HTML Tables</h3>
+    <p>You can find more about HTML tables in Section 5 /40-45. </p>
+    <hr>
+    <h3>HTML Forms *important section*</h3>
+    <hr>
+    <p>
+        <u>The Form Element:</u> Is a shell or contatiner that doesn't have any visual imact. We fill the form with a
+        collection of inputs, checkboxes, buttons, ect.
+    </p>
+    <a target="_blank" href="forms.html">Forms Demo</a>
+
+
+
+</body>
+
+</html>
