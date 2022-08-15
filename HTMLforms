@@ -1,0 +1,141 @@
+-HTML-
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+
+<body>
+    <h1>HTML Forms Demo Page</h1>
+    <hr>
+    <p>Let's get into forms by... you guessed it... creating forms ;)</p>
+    <p>
+        <u>The Form Element:</u> Is a shell or contatiner that doesn't have any visual imact. We fill the form with a
+        collection of inputs, checkboxes, buttons, ect.
+    </p>
+    <p>
+        <u>The Input Element:</u> is used to create a variety of different form controls. There are 20+ possible types
+        of inputes, ranging from date pickers to checkboxes. The <i>type</i> attribute is where the magic happens.
+        Changing <i>type</i> dramatically alters the inputs's behaviour and appearance.
+        <br>
+        <br>
+        Below you will see multiple form <u>labels</u> and <u>inputs</u>.
+    </p>
+    <hr>
+    <form action="/trends">
+        <p>
+            <label for="username">Enter Username here:</label>
+            <input type="text" placeholder="Username" id="username">
+        </p>
+        <p>
+            <label for="password">Enter Password here:</label>
+            <input type="password" placeholder="Password" id="password">
+        </p>
+
+        <p>
+            <label for="color">Enter Color here:</label>
+            <input type="color" name="" id="color">
+        </p>
+
+        <p>
+            <label for="month">Choose a Month:</label>
+            <input type="month" placeholder="Enter a Month" id="month">
+        </p>
+        <p>
+            <label for="number">Enter a Number:</label>
+            <input type="number" placeholder=" Enter a Number" id="number">
+        </p>
+        <p>
+            <label for="email">Enter your Email:</label>
+            <input type="email" placeholder="Enter an Email" id="email">
+        </p>
+    </form>
+    <hr>
+    <h3>HTML Buttons</h3>
+    <hr>
+    <p>
+        <button>Submit</button>
+        You need to specify "type" to direct the button.
+    </p>
+    <hr>
+    <p>Cool Reddit/Google search hack</p>
+    <p>Reddit Search Hack</p>
+    <form action="https://www.reddit.com/search" target="_blank">
+
+        <input type="text" name="q">
+        <button>Search Reddit</button>
+    </form>
+    <p>Google Search Hack</p>
+    <form action="https://www.google.com/search" target="_blank">
+
+        <input type="text" name="q">
+        <button>Search Google</button>
+    </form>
+    <hr>
+    <h3>Additional Input Elements.</h3>
+    <hr>
+    <p>Checkbox Input</p>
+
+    <input type="checkbox" name="Checkbox" id="checkbox" checked>
+    <label for="checkbox">Click Here</label>
+    <hr>
+    <p>Radio Input</p>
+    <p>
+        <label for="Wordpress">Wordpress</label>
+        <input type="radio" name="crm" id="Wordpress">
+    </p>
+    <p>
+        <label for="Shopify">Shopify</label>
+        <input type="radio" name="crm" id="Shopify">
+    </p>
+    <label for="Wix">Wix</label>
+    <input type="radio" name="crm" id="Wix">
+    <hr>
+    <p>The Select Element</p>
+    <p>The Select Element is the parent of the Option Element, they work together to build out a selection table.</p>
+    <label for="crm">CRM used --> </label>
+    <select name="crm" id="crm">
+
+        <option value="Wordpress">Wordpress</option>
+        <option value="Shopify">Shopify</option>
+        <option value="Wix">Wix</option>
+    </select>
+    <hr>
+
+    <h3>Other useful Inputs to know</h3>
+    <hr>
+    <p>The Range input</p>
+    <label for="wordpress">Worpress Skills</label>
+    <input type="range" name="wp" id="wordpress" min="1" max="100">
+    <br>
+    <label for="shopify">Shopify Skills</label>
+    <input type="range" name="sh" id="shopify">
+    <br>
+    <label for="wix">Wix Skills</label>
+    <input type="range" name="wix" id="wix">
+    <br>
+    <h3>Textarea</h3>
+    <p>
+
+        <Textarea id="words" rows="10" cols="80" placeholder="Your wise words here"></Textarea>
+
+    </p>
+    <hr>
+    <h3>HTML Form Validations</h3>
+    <hr>
+    <p>
+        Form validators are used when a form option is required. A great example of this is when you have to use a
+        minimum amount of characters in a password.
+    </p>
+    <p>One of the most common Validators is "required" which you will need to add to the input element.</p>
+
+
+
+</body>
+
+</html>
